@@ -1,0 +1,140 @@
+﻿body {
+	margin: 0px;
+	background: #FFFFFF url(tsimages/background_nav_main_dodgebl.gif) repeat-x left top;
+	font: 0.7em Verdana,Arial,Helvetica,sans-serif;
+}
+
+td {
+	font:11px arial;
+	color:#333333;
+	}
+	
+a {
+	color: #cc0000;
+	text-decoration:none;
+	font-weight:bold;
+	}
+	
+a:hover {
+	color: #990000;
+	text-decoration:underline;
+	}
+	
+/* ID Styles */
+	
+#navigation a {
+	font:10px arial;
+	color: #336666;
+	text-decoration:none;
+	letter-spacing:.1em;
+	}
+	
+#navigation a:hover {
+	color: #993300;
+	text-decoration:underline;
+	}
+
+#padding {
+	padding:20px 5px 20px 5px;
+	}
+	
+#weekdays th {
+	font:16px arial;
+	color: #ffffff;
+	letter-spacing:0.2em;
+	font-weight: bold;
+	}
+
+#calheader td {
+	font-weight:bold;
+	font-style: italic;
+	color: #FFFF00;
+	font-size: 14px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	text-align: left;
+	letter-spacing: 5px;
+	}
+
+/* Class Styles */
+
+.logo {
+	font:28px tahoma;
+	color: #FFFFFF;
+	letter-spacing:0.4em;
+	font-weight:bold;
+	}
+
+.sidebarText {
+	font:12px georgia;
+	color: #336666;
+	line-height:18px;
+	}
+	
+.bodyText {
+	font:11px arial;
+	line-height:24px;
+	color:#333333;
+	}
+	
+.pageName {
+	font:20px georgia;
+	color: #CC3300;
+	letter-spacing:.1em;
+	line-height:26px;
+	}
+	
+.subHeader {
+	font:14px georgia;
+	color: #669999;
+	font-weight:bold;
+	line-height:20px;
+	letter-spacing:.1em;
+	}
+	
+.navText {
+	font:10px arial;
+	color: #333300;
+	letter-spacing:.1em;
+	}
+	
+.calendarText {
+	font:14px arial;
+	line-height:14px;
+	color:#333333;
+	text-align: right;
+	}
+	
+.calendarText2 {
+	font:14px arial;
+	line-height:14px;
+	color:#333333;
+	text-align: center;
+	}
+.modalBackground {
+	background-color:Gray;
+	filter:alpha(opacity=70);
+	opacity:0.7;
+}
+
+.modalPopup {
+	background-color:#ffffdd;
+	border-width:3px;
+	border-style:solid;
+	border-color:Gray;
+	padding:3px;
+	width:250px;
+}
+
+.background {
+    background-color: #C0C0C0;            
+	filter: alpha(opacity=70);
+	opacity: 0.7;        
+}        
+.popup      {
+	width: 400px;            
+	padding: 10px;            
+	background-color: #C0FFC0;            
+	border: solid 2px #000000;            
+	vertical-align: middle;             
+	text-align: center;        
+}
